@@ -26,7 +26,7 @@ public class Animal {
             return "The " + species + " is a " + habitat + " animal that weighs " + MaxWeight + " pounds.";
         }
         else {
-            return "The " + species + " is a " + habitat + " animal that weighs " + MaxWeight + " pounds. It is endangered.";
+            return "The " + species + " is a " + habitat + " animal that weighs " + MaxWeight + " pounds. I am endangered, SAVE ME:(.";
         }
     }
 }

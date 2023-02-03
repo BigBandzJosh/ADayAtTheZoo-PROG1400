@@ -6,6 +6,8 @@ public class Main {
         Animal animal4 = new Animal();
         Animal[] animals = {animal1, animal2, animal3,animal4};
         for (int i =0; i < animals.length; i++) {
+            System.out.println(animals[i].fedAnimal("grass"));
+            System.out.println(animals[i].animalSounds("roar"));
             System.out.println(animals[i]);
         }
     }
